@@ -62,3 +62,78 @@ const postsDB = {
     }
     // Adicione mais posts aqui seguindo o mesmo padrão
 };
+
+    "redacao-enem-nota-1000": {
+        titulo: "Redação ENEM Nota 1000: O Guia Definitivo da Estrutura Dissertativo-Argumentativa",
+        categoria: "Redação",
+        conteudo: `
+            <p>Se você quer destravar sua nota no ENEM, precisa entender que a redação não é um dom, é um <strong>processo de engenharia</strong>. Existe uma estrutura fixa que os corretores buscam. Neste guia, vamos dissecar cada parágrafo.</p>
+            
+            
+
+            <h2>1. A Introdução: O Cartão de Visitas (6 a 8 linhas)</h2>
+            <p>Sua introdução deve cumprir três funções básicas: Repertório, Contextualização e Tese.</p>
+            <ul>
+                <li><strong>Repertório:</strong> Comece com uma citação, um fato histórico ou um filme. Ex: "No filme 'Coringa', observa-se a negligência estatal com a saúde mental..."</li>
+                <li><strong>Conectivo + Tema:</strong> Ligue o filme ao tema real da redação.</li>
+                <li><strong>Tese:</strong> Apresente dois problemas (Causa A e Causa B) que você vai resolver nos próximos parágrafos.</li>
+            </ul>
+
+            <div class="exemplo">
+                <strong>Dica de Ouro:</strong> Nunca comece direto no tema. Use uma "alça" cultural para mostrar ao corretor que você tem bagagem.
+            </div>
+
+            <h2>2. Desenvolvimento 1 e 2: O Coração do Texto</h2>
+            <p>Cada parágrafo de desenvolvimento (D1 e D2) deve focar em uma das causas que você citou na introdução.</p>
+            <p><strong>Estrutura do Desenvolvimento:</strong></p>
+            <ol>
+                <li><strong>Tópico Frasal:</strong> Uma frase curta resumindo o argumento.</li>
+                <li><strong>Repertório de Legitimação:</strong> Um dado estatístico, conceito filosófico ou geográfico.</li>
+                <li><strong>Análise Crítica:</strong> Aqui é onde você "briga" com o problema. Explique POR QUE aquilo acontece.</li>
+                <li><strong>Consequência:</strong> Mostre o impacto disso na sociedade.</li>
+            </ol>
+
+            <h2>3. Conclusão: A Proposta de Intervenção (PI)</h2>
+            <p>Aqui você ganha ou perde 200 pontos. O ENEM exige 5 elementos obrigatórios:</p>
+            <table>
+                <tr>
+                    <th>Elemento</th>
+                    <th>Pergunta para responder</th>
+                </tr>
+                <tr>
+                    <td><strong>Agente</strong></td>
+                    <td>Quem vai fazer? (Ex: Ministério da Educação)</td>
+                </tr>
+                <tr>
+                    <td><strong>Ação</strong></td>
+                    <td>O que será feito? (Ex: Criar projetos pedagógicos)</td>
+                </tr>
+                <tr>
+                    <td><strong>Meio/Modo</strong></td>
+                    <td>Como será feito? (Ex: Por meio de verbas federais)</td>
+                </tr>
+                <tr>
+                    <td><strong>Efeito</strong></td>
+                    <td>Para que serve? (Ex: Com o fito de reduzir o preconceito)</td>
+                </tr>
+                <tr>
+                    <td><strong>Detalhamento</strong></td>
+                    <td>Explicação extra de qualquer item acima.</td>
+                </tr>
+            </table>
+
+            
+
+            <h2>Interação: Desafio dos 5 Elementos</h2>
+            <div class="quiz-container">
+                <p>Na frase: "O Governo Federal (1) deve investir em infraestrutura (2) através de parcerias privadas (3) para melhorar o trânsito (4), visando garantir o direito de ir e vir dos cidadãos (5)", o número <strong>(3)</strong> representa qual elemento?</p>
+                <button onclick="verificarResposta(this, 'errado')">A) Agente</button>
+                <button onclick="verificarResposta(this, 'correto')">B) Meio / Modo</button>
+                <button onclick="verificarResposta(this, 'errado')">C) Detalhamento</button>
+                <p class="feedback"></p>
+            </div>
+
+            <h2>Dicas Finais para o Sucesso</h2>
+            <p>Use conectivos em todos os começos de parágrafo: "Nesse sentido", "Outrossim", "Portanto". Isso garante pontos na Competência 4.</p>
+        `
+    },
