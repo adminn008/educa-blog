@@ -1,0 +1,109 @@
+:root {
+    --primary: #1a2a3a;
+    --accent: #00d1b2;
+    --text: #333;
+    --bg: #f5f7fa;
+    --white: #ffffff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { 
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+    background-color: var(--bg); 
+    color: var(--text); 
+    line-height: 1.6; 
+}
+
+/* Header e Navegação */
+header {
+    background: var(--primary);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo { 
+    color: var(--white); 
+    text-decoration: none; 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+}
+
+.logo span { color: var(--accent); }
+
+.nav-links { display: flex; list-style: none; }
+.nav-links li { margin-left: 20px; }
+.nav-links a { color: var(--white); text-decoration: none; font-weight: 500; transition: 0.3s; }
+.nav-links a:hover { color: var(--accent); }
+
+/* Containers */
+.container { max-width: 1000px; margin: 2rem auto; padding: 0 20px; }
+
+/* Home Grid */
+.hero { text-align: center; margin-bottom: 3rem; }
+.hero h1 { font-size: 2.5rem; color: var(--primary); }
+
+.grid-materias { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 20px; 
+}
+
+.card { 
+    background: var(--white); 
+    padding: 40px; 
+    border-radius: 12px; 
+    text-align: center; 
+    text-decoration: none; 
+    color: var(--primary); 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    border-bottom: 5px solid transparent;
+}
+
+.card:hover { 
+    transform: translateY(-10px); 
+    border-bottom: 5px solid var(--accent); 
+}
+
+/* Artigo/Post */
+.post-content { background: var(--white); padding: 40px; border-radius: 15px; }
+.post-header { margin-bottom: 30px; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+#conteudo-principal h2 { margin: 25px 0 15px; color: var(--primary); }
+#conteudo-principal p { margin-bottom: 15px; font-size: 1.1rem; }
+
+.exemplo, .exercicio { 
+    background: #eef9f8; 
+    padding: 20px; 
+    border-left: 5px solid var(--accent); 
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+/* AdSense Placeholder */
+.ads-box { 
+    margin: 30px 0; 
+    padding: 15px; 
+    background: #fdfdfd; 
+    border: 1px dashed #bbb; 
+    text-align: center;
+    min-height: 100px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .nav-links { display: none; }
+    .hero h1 { font-size: 1.8rem; }
+}
