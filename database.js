@@ -137,3 +137,62 @@ const postsDB = {
             <p>Use conectivos em todos os começos de parágrafo: "Nesse sentido", "Outrossim", "Portanto". Isso garante pontos na Competência 4.</p>
         `
     },
+
+    "revolucao-industrial": {
+        titulo: "Revolução Industrial: O Guia Completo das Transformações Globais",
+        categoria: "História",
+        conteudo: `
+            <p>A <strong>Revolução Industrial</strong> não foi apenas um evento isolado, mas um processo contínuo que alterou permanentemente a forma como a humanidade produz, consome e se organiza socialmente. Iniciada na Inglaterra em meados do século XVIII, ela marca a transição da manufatura para a maquinofatura.</p>
+
+            <h2>1. O Pioneirismo Inglês: Por que a Inglaterra?</h2>
+            <p>Muitos alunos se perguntam por que a revolução começou na ilha britânica e não na França ou na China. Existem quatro pilares fundamentais para o pioneirismo inglês:</p>
+            <ul>
+                <li><strong>Acúmulo de Capital:</strong> Séculos de comércio marítimo e pirataria oficial (corsários) deram à burguesia inglesa o dinheiro necessário para investir em fábricas.</li>
+                <li><strong>Recursos Naturais:</strong> O solo inglês era rico em <strong>carvão mineral</strong> (combustível) e <strong>minério de ferro</strong> (matéria-prima).</li>
+                <li><strong>Cercamentos (Enclosures):</strong> As terras comunais foram cercadas para a criação de ovelhas (lã). Isso expulsou os camponeses para as cidades, criando uma massa de mão de obra barata e desesperada.</li>
+                <li><strong>Estabilidade Política:</strong> A Revolução Gloriosa de 1688 deu o poder ao Parlamento, permitindo leis que favoreciam o livre comércio.</li>
+            </ul>
+
+            <div class="exemplo">
+                <strong>Importante para o ENEM:</strong> O cercamento dos campos é a raiz do êxodo rural maciço que inchou as cidades inglesas como Londres e Manchester.
+            </div>
+
+            <h2>2. As Fases da Revolução</h2>
+            <p>A industrialização é dividida em etapas, cada uma com sua tecnologia dominante:</p>
+            
+            <h3>Primeira Revolução (1760 - 1860)</h3>
+            <p>O foco era o carvão, o ferro e o vapor. A principal indústria era a <strong>têxtil</strong>. James Watt aperfeiçoou a máquina a vapor, que passou a mover teares, barcos e as primeiras locomotivas (a "Maria Fumaça").</p>
+
+            <h3>Segunda Revolução (1860 - 1945)</h3>
+            <p>O cenário muda para o <strong>aço, o petróleo e a eletricidade</strong>. Surgem os motores a combustão, o automóvel de Henry Ford e os métodos de produção em massa (Fordismo). A química industrial e a invenção da lâmpada e do telefone transformam o cotidiano.</p>
+
+            <h2>3. Impactos Sociais e o Movimento Operário</h2>
+            <p>As condições nas fábricas eram desumanas. A jornada de trabalho chegava a 16 horas por dia. Crianças de 5 anos eram usadas para limpar chaminés e máquinas por serem pequenas. Não havia férias, aposentadoria ou segurança.</p>
+            
+            <p>Dessa exploração surgiram os primeiros movimentos:</p>
+            <ul>
+                <li><strong>Ludismo:</strong> Os "quebradores de máquinas". Eles acreditavam que as máquinas roubavam os empregos e as destruíam como protesto.</li>
+                <li><strong>Cartismo:</strong> Um movimento mais político que exigia o voto universal e direitos para os trabalhadores através da "Carta do Povo".</li>
+                <li><strong>Sindicatos (Trade Unions):</strong> Organizações de trabalhadores para negociar melhores salários e condições.</li>
+            </ul>
+
+            <div class="exemplo">
+                <strong>Análise Crítica:</strong> A Revolução Industrial criou a classe do <em>Proletariado</em> (quem vende sua força de trabalho) e consolidou a <em>Burguesia</em> (dona dos meios de produção).
+            </div>
+
+            <h2>4. Consequências Ambientais</h2>
+            <p>Foi aqui que o impacto humano no clima começou a acelerar drasticamente. A queima de combustíveis fósseis liberou quantidades sem precedentes de CO2 na atmosfera. As cidades tornaram-se poluídas, cinzentas e insalubres, facilitando a propagação de doenças como o cólera.</p>
+
+            <h2>Interação: Desafio de História</h2>
+            <div class="quiz-container">
+                <p>Qual movimento operário ficou conhecido por invadir fábricas e destruir máquinas como forma de protesto contra a precarização do trabalho?</p>
+                <button onclick="verificarResposta(this, 'correto')">A) Ludismo</button>
+                <button onclick="verificarResposta(this, 'errado')">B) Cartismo</button>
+                <button onclick="verificarResposta(this, 'errado')">C) Fordismo</button>
+                <p class="feedback"></p>
+            </div>
+
+            <h2>Resumo para Revisão</h2>
+            <p>Para não esquecer: A Revolução Industrial trouxe o progresso tecnológico, mas ao custo de grande desigualdade social inicial. Ela mudou a percepção do tempo (o relógio passou a mandar no homem) e globalizou o consumo.</p>
+        `
+    },
